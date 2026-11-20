@@ -1,0 +1,40 @@
+
+== BOARD 735x587
+✓ overview
+✓ window 1 molniya  (fact card: y 446-521, width 709)
+✓ window 2 golovnya  (fact card: y 470-521, width 356)
+✓ window 3 peshchera  (fact card: y 470-521, width 582)
+✓ window 4 razrez  (fact card: y 470-521, width 669)
+✓ window 5 dobycha  (fact card: y 470-521, width 687)
+✓ window 6 koster  (fact card: y 470-521, width 528)
+  board total: remarks 0
+
+== BOARD 874x648
+✓ overview
+✓ window 1 molniya  (fact card: y 531-582, width 810)
+✓ window 2 golovnya  (fact card: y 531-582, width 356)
+✓ window 3 peshchera  (fact card: y 531-582, width 582)
+✓ window 4 razrez  (fact card: y 531-582, width 669)
+✓ window 5 dobycha  (fact card: y 531-582, width 687)
+✓ window 6 koster  (fact card: y 531-582, width 528)
+  board total: remarks 0
+
+== BOARD 1440x900
+✓ overview
+✓ window 1 molniya  (fact card: y 745-834, width 882)
+✓ window 2 golovnya  (fact card: y 776-834, width 442)
+✓ window 3 peshchera  (fact card: y 776-834, width 736)
+✓ window 4 razrez  (fact card: y 776-834, width 847)
+✓ window 5 dobycha  (fact card: y 776-834, width 871)
+✓ window 6 koster  (fact card: y 776-834, width 665)
+  board total: remarks 0
+
+== BOARD 735x815
+✓ overview
+✓ window 1 molniya  (fact card: y 674-749, width 709)
+✓ window 2 golovnya  (fact card: y 698-749, width 356)
+✓ window 3 peshchera  (fact card: y 698-749, width 582)
+✓ window 4 razrez  (fact card: y 698-749, width 669)
+✓ window 5 dobycha  (fact card: y 698-749, width 687)
+✓ window 6 koster  (fact card: y 698-749, width 528)
+  board total: remarks 0

@@ -1,0 +1,52 @@
+
+== 735x587  step 0.0333 s
+{"kind":"jump","nm":"molniya#1 (o)","at":5.2,"from":0,"to":1,"inFrame":true,"what":"canvas layer"}
+{"kind":"flash","nm":"peshchera#1 (o)","from":20.97,"to":21.93,"dur":0.97,"peak":1,"inFrame":true,"what":"canvas layer"}
+{"kind":"flicker","nm":"peshchera#2:fx (a)","from":19.77,"to":19.83,"gap":0.07,"inFrame":true,"what":"glow"}
+{"kind":"flash","nm":"dobycha#6:fx (a)","from":44.87,"to":45.8,"dur":0.93,"peak":0.8,"inFrame":true,"what":"glow"}
+{"kind":"visible again","nm":"dobycha#7:fx (a)","from":46.63,"to":50.57,"gap":3.93,"inFrame":true,"what":"glow"}
+{"kind":"flash","nm":"dobycha#7:fx (a)","from":45.83,"to":46.63,"dur":0.8,"peak":0.8,"inFrame":true,"what":"glow"}
+{"kind":"jump","nm":"shade of window 3 (openness)","at":24,"from":1,"to":0,"inFrame":true,"what":"shade"}
+{"kind":"jump","nm":"shade of window 4 (openness)","at":24,"from":0,"to":1,"inFrame":true,"what":"shade"}
+
+visibility intervals of labels:
+tag "огонь от молнии"                                        
+tag "огонь несут в пещеру"                                   
+tag "огонь берегут день и ночь"                              
+tag "зола и угли"                                            
+tag "6 метров"                                               
+tag "трением"                                                
+tag "искрами из камня"                                       
+tag "еда"                                                    
+tag "тепло"                                                  
+tag "свет"                                                   
+tag "защита"                                                 
+wtag "Огонь от молнии"                                       78.43-80.03
+wtag "Огонь несут в пещеру"                                  78.43-80.03
+wtag "Огонь берегут"                                         78.43-80.03
+wtag "Пещера под Пекином"                                    78.43-80.03
+wtag "Огонь добывают сами"                                   78.43-80.03
+wtag "Зачем людям огонь"                                     78.43-80.03
+badge "1"                                                    66.93-80.03
+badge "2"                                                    67.03-80.03
+badge "3"                                                    67.17-80.03
+badge "4"                                                    67.3-80.03
+badge "5"                                                    67.4-80.03
+badge "6"                                                    67.53-80.03
+ltitle "Что мы узнали об огне"                               68.27-80.03
+lunder ""                                                    69.17-80.03
+litem "1Сначала огонь брали от дерева, ко"                   69.7-80.03
+litem "2В пещере огонь берегли день и ноч"                   70.7-80.03
+litem "3Под Пекином нашли слой с золой и "                   71.7-80.03
+litem "4Позже огонь научились добывать са"                   72.7-80.03
+litem "5Огонь давал еду, тепло, свет и за"                   73.7-80.03
+chapter inset "1 · Огонь от молнии · Африка · около мил"     2.83-10.83
+chapter inset "2 · Огонь несут в пещеру · Африка · окол"     12.93-17.43
+chapter inset "3 · Огонь берегут · день и ночь · день и"     19.07-24.2
+chapter inset "4 · Пещера под Пекином · Китай · около 4"     25.43-37.7
+chapter inset "5 · Огонь добывают сами · позже · позже"      38.73-51.83
+chapter inset "6 · Зачем людям огонь"                        53.43-56.13
+
+TOTAL 735x587: flickering labels in frame: 0
+  findings in all 8 (labels 0, canvas layers/glow/shade 8: molniya#1 (o), peshchera#1 (o), peshchera#2:fx (a), dobycha#6:fx (a), dobycha#7:fx (a), shade of window 3 (openness), shade of window 4 (openness))
+no errors

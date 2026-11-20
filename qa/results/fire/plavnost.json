@@ -1,0 +1,1586 @@
+{
+ "url": "http://localhost:41308/demo/fire/index.html",
+ "legs": "auto",
+ "sizes": {
+  "735x587": {
+   "rows": [
+    {
+     "move": "move",
+     "from": 0.05,
+     "to": 4.45,
+     "max_speed_px_per_frame": 0.6,
+     "jerk_max": 0.01,
+     "jerk_at_s": 4.45,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 5.23,
+     "to": 7.13,
+     "max_speed_px_per_frame": 1,
+     "jerk_max": 0.03,
+     "jerk_at_s": 5.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 7.25,
+     "to": 9.85,
+     "max_speed_px_per_frame": 0.4,
+     "jerk_max": 0.01,
+     "jerk_at_s": 9.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "fly golovnya",
+     "from": 10.63,
+     "to": 12.63,
+     "max_speed_px_per_frame": 13.4,
+     "jerk_max": 0.51,
+     "jerk_at_s": 11.63,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.22,
+     "speed_out": 0.1
+    },
+    {
+     "move": "move",
+     "from": 14.15,
+     "to": 16.85,
+     "max_speed_px_per_frame": 1.6,
+     "jerk_max": 0.03,
+     "jerk_at_s": 16.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "fly peshchera",
+     "from": 17.22,
+     "to": 18.82,
+     "max_speed_px_per_frame": 15.5,
+     "jerk_max": 0.54,
+     "jerk_at_s": 17.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.17,
+     "speed_out": 0.33
+    },
+    {
+     "move": "move",
+     "from": 19.35,
+     "to": 22.95,
+     "max_speed_px_per_frame": 1.4,
+     "jerk_max": 0.02,
+     "jerk_at_s": 22.95,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 24.03,
+     "to": 27.23,
+     "max_speed_px_per_frame": 0.7,
+     "jerk_max": 0.01,
+     "jerk_at_s": 27.22,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 28.59,
+     "to": 30.29,
+     "max_speed_px_per_frame": 2.6,
+     "jerk_max": 0.08,
+     "jerk_at_s": 28.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.07
+    },
+    {
+     "move": "drift",
+     "from": 34.75,
+     "to": 37.47,
+     "max_speed_px_per_frame": 0.1,
+     "jerk_max": 0,
+     "jerk_at_s": 37.47,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "fly dobycha",
+     "from": 37.49,
+     "to": 38.99,
+     "max_speed_px_per_frame": 13.6,
+     "jerk_max": 0.48,
+     "jerk_at_s": 38.98,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.09,
+     "speed_out": 0.43
+    },
+    {
+     "move": "move",
+     "from": 40.86,
+     "to": 43.26,
+     "max_speed_px_per_frame": 2,
+     "jerk_max": 0.04,
+     "jerk_at_s": 43.23,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.04,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 45.5,
+     "to": 46.9,
+     "max_speed_px_per_frame": 2.8,
+     "jerk_max": 0.11,
+     "jerk_at_s": 45.53,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.05,
+     "speed_out": 0.05
+    },
+    {
+     "move": "move",
+     "from": 49.95,
+     "to": 51.45,
+     "max_speed_px_per_frame": 1.9,
+     "jerk_max": 0.07,
+     "jerk_at_s": 51.45,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.03,
+     "speed_out": 0.03
+    },
+    {
+     "move": "fly koster",
+     "from": 51.6,
+     "to": 53.2,
+     "max_speed_px_per_frame": 14.7,
+     "jerk_max": 0.5,
+     "jerk_at_s": 51.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.25,
+     "speed_out": 0.23
+    },
+    {
+     "move": "drift",
+     "from": 53.55,
+     "to": 55.93,
+     "max_speed_px_per_frame": 0.3,
+     "jerk_max": 0.01,
+     "jerk_at_s": 53.6,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 56.13,
+     "to": 57.73,
+     "max_speed_px_per_frame": 2.3,
+     "jerk_max": 0.07,
+     "jerk_at_s": 57.72,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.05,
+     "speed_out": 0.02
+    },
+    {
+     "move": "drift",
+     "from": 58.41,
+     "to": 60.15,
+     "max_speed_px_per_frame": 0.3,
+     "jerk_max": 0.01,
+     "jerk_at_s": 58.47,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 60.75,
+     "to": 62.95,
+     "max_speed_px_per_frame": 1.5,
+     "jerk_max": 0.04,
+     "jerk_at_s": 62.93,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "move",
+     "from": 63.58,
+     "to": 65.18,
+     "max_speed_px_per_frame": 1.4,
+     "jerk_max": 0.04,
+     "jerk_at_s": 65.17,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.03,
+     "speed_out": 0.01
+    }
+   ],
+   "cuts": [
+    {
+     "kind": "cut molniya",
+     "t": 0,
+     "end": 0
+    },
+    {
+     "kind": "cut razrez",
+     "t": 23.98,
+     "end": 23.98
+    }
+   ],
+   "top": [
+    {
+     "t": 66.48,
+     "dv": 1.18,
+     "idet": "-"
+    },
+    {
+     "t": 66.82,
+     "dv": 0.73,
+     "idet": "-"
+    },
+    {
+     "t": 68.42,
+     "dv": 0.6,
+     "idet": "-"
+    },
+    {
+     "t": 68.08,
+     "dv": 0.54,
+     "idet": "-"
+    },
+    {
+     "t": 17.27,
+     "dv": 0.54,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 77.32,
+     "dv": 0.53,
+     "idet": "-"
+    },
+    {
+     "t": 11.63,
+     "dv": 0.51,
+     "idet": "fly golovnya"
+    },
+    {
+     "t": 69.92,
+     "dv": 0.51,
+     "idet": "-"
+    },
+    {
+     "t": 51.63,
+     "dv": 0.5,
+     "idet": "fly koster"
+    },
+    {
+     "t": 38.98,
+     "dv": 0.48,
+     "idet": "fly dobycha"
+    },
+    {
+     "t": 18.82,
+     "dv": 0.48,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 37.53,
+     "dv": 0.47,
+     "idet": "fly dobycha"
+    }
+   ],
+   "vnahlyost": [],
+   "still": [
+    [
+     30.3,
+     35.07
+    ],
+    [
+     46.92,
+     49.98
+    ]
+   ],
+   "fin": 66.48,
+   "vsego": {
+    "stoit": 36.4,
+    "stoitS": 24.2,
+    "polzyot": 16.8,
+    "polzyotS": 11.2,
+    "dlina": 66.5
+   },
+   "poOknam": {
+    "1": {
+     "okno": "Огонь от молнии",
+     "s": 11.6,
+     "stoit": 19.6
+    },
+    "2": {
+     "okno": "Огонь несут в пещеру",
+     "s": 6.2,
+     "stoit": 31.3
+    },
+    "3": {
+     "okno": "Огонь берегут",
+     "s": 5.9,
+     "stoit": 27.8
+    },
+    "4": {
+     "okno": "Пещера под Пекином",
+     "s": 14.2,
+     "stoit": 47
+    },
+    "5": {
+     "okno": "Огонь добывают сами",
+     "s": 14,
+     "stoit": 52.8
+    },
+    "6": {
+     "okno": "Зачем людям огонь",
+     "s": 14,
+     "stoit": 30.8
+    }
+   },
+   "otrezok": null,
+   "maxFly": 15.5,
+   "flyMax": "fly peshchera",
+   "maxJerk": 0.54,
+   "jerkMax": "fly peshchera",
+   "errs": []
+  },
+  "874x648": {
+   "rows": [
+    {
+     "move": "move",
+     "from": 0.05,
+     "to": 4.45,
+     "max_speed_px_per_frame": 0.7,
+     "jerk_max": 0.01,
+     "jerk_at_s": 4.45,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 5.23,
+     "to": 7.13,
+     "max_speed_px_per_frame": 1.1,
+     "jerk_max": 0.03,
+     "jerk_at_s": 5.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 7.25,
+     "to": 9.85,
+     "max_speed_px_per_frame": 0.4,
+     "jerk_max": 0.01,
+     "jerk_at_s": 9.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "fly golovnya",
+     "from": 10.63,
+     "to": 12.63,
+     "max_speed_px_per_frame": 15,
+     "jerk_max": 0.59,
+     "jerk_at_s": 11.63,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.25,
+     "speed_out": 0.12
+    },
+    {
+     "move": "move",
+     "from": 14.15,
+     "to": 16.85,
+     "max_speed_px_per_frame": 1.8,
+     "jerk_max": 0.04,
+     "jerk_at_s": 16.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "fly peshchera",
+     "from": 17.22,
+     "to": 18.82,
+     "max_speed_px_per_frame": 17.2,
+     "jerk_max": 0.6,
+     "jerk_at_s": 17.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.19,
+     "speed_out": 0.37
+    },
+    {
+     "move": "move",
+     "from": 19.35,
+     "to": 22.95,
+     "max_speed_px_per_frame": 1.6,
+     "jerk_max": 0.02,
+     "jerk_at_s": 22.95,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 24.03,
+     "to": 27.23,
+     "max_speed_px_per_frame": 0.8,
+     "jerk_max": 0.01,
+     "jerk_at_s": 27.22,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 28.59,
+     "to": 30.29,
+     "max_speed_px_per_frame": 3,
+     "jerk_max": 0.09,
+     "jerk_at_s": 28.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.08
+    },
+    {
+     "move": "drift",
+     "from": 34.75,
+     "to": 37.47,
+     "max_speed_px_per_frame": 0.2,
+     "jerk_max": 0,
+     "jerk_at_s": 37.47,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "fly dobycha",
+     "from": 37.49,
+     "to": 38.99,
+     "max_speed_px_per_frame": 15.1,
+     "jerk_max": 0.53,
+     "jerk_at_s": 38.98,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.09,
+     "speed_out": 0.48
+    },
+    {
+     "move": "move",
+     "from": 40.86,
+     "to": 43.26,
+     "max_speed_px_per_frame": 2.3,
+     "jerk_max": 0.05,
+     "jerk_at_s": 43.23,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.04,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 45.5,
+     "to": 46.9,
+     "max_speed_px_per_frame": 3.2,
+     "jerk_max": 0.12,
+     "jerk_at_s": 45.53,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.06,
+     "speed_out": 0.06
+    },
+    {
+     "move": "move",
+     "from": 49.95,
+     "to": 51.45,
+     "max_speed_px_per_frame": 2.2,
+     "jerk_max": 0.08,
+     "jerk_at_s": 51.45,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.04,
+     "speed_out": 0.04
+    },
+    {
+     "move": "fly koster",
+     "from": 51.6,
+     "to": 53.2,
+     "max_speed_px_per_frame": 16.3,
+     "jerk_max": 0.55,
+     "jerk_at_s": 51.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.28,
+     "speed_out": 0.26
+    },
+    {
+     "move": "drift",
+     "from": 53.55,
+     "to": 55.93,
+     "max_speed_px_per_frame": 0.3,
+     "jerk_max": 0.01,
+     "jerk_at_s": 53.6,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 56.13,
+     "to": 57.73,
+     "max_speed_px_per_frame": 2.5,
+     "jerk_max": 0.08,
+     "jerk_at_s": 57.72,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.06,
+     "speed_out": 0.03
+    },
+    {
+     "move": "drift",
+     "from": 58.41,
+     "to": 60.15,
+     "max_speed_px_per_frame": 0.3,
+     "jerk_max": 0.01,
+     "jerk_at_s": 58.47,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 60.75,
+     "to": 62.95,
+     "max_speed_px_per_frame": 1.7,
+     "jerk_max": 0.04,
+     "jerk_at_s": 62.93,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "move",
+     "from": 63.58,
+     "to": 65.18,
+     "max_speed_px_per_frame": 1.6,
+     "jerk_max": 0.05,
+     "jerk_at_s": 65.17,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.04,
+     "speed_out": 0.02
+    }
+   ],
+   "cuts": [
+    {
+     "kind": "cut molniya",
+     "t": 0,
+     "end": 0
+    },
+    {
+     "kind": "cut razrez",
+     "t": 23.98,
+     "end": 23.98
+    }
+   ],
+   "top": [
+    {
+     "t": 66.48,
+     "dv": 1.33,
+     "idet": "-"
+    },
+    {
+     "t": 66.82,
+     "dv": 0.83,
+     "idet": "-"
+    },
+    {
+     "t": 68.42,
+     "dv": 0.69,
+     "idet": "-"
+    },
+    {
+     "t": 68.08,
+     "dv": 0.63,
+     "idet": "-"
+    },
+    {
+     "t": 17.27,
+     "dv": 0.6,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 11.63,
+     "dv": 0.59,
+     "idet": "fly golovnya"
+    },
+    {
+     "t": 51.63,
+     "dv": 0.55,
+     "idet": "fly koster"
+    },
+    {
+     "t": 18.82,
+     "dv": 0.53,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 38.98,
+     "dv": 0.53,
+     "idet": "fly dobycha"
+    },
+    {
+     "t": 37.53,
+     "dv": 0.52,
+     "idet": "fly dobycha"
+    },
+    {
+     "t": 53.2,
+     "dv": 0.51,
+     "idet": "fly koster"
+    },
+    {
+     "t": 67.75,
+     "dv": 0.49,
+     "idet": "-"
+    }
+   ],
+   "vnahlyost": [],
+   "still": [
+    [
+     30.3,
+     35.05
+    ],
+    [
+     46.92,
+     49.98
+    ]
+   ],
+   "fin": 66.48,
+   "vsego": {
+    "stoit": 36,
+    "stoitS": 23.9,
+    "polzyot": 15.5,
+    "polzyotS": 10.3,
+    "dlina": 66.5
+   },
+   "poOknam": {
+    "1": {
+     "okno": "Огонь от молнии",
+     "s": 11.6,
+     "stoit": 19
+    },
+    "2": {
+     "okno": "Огонь несут в пещеру",
+     "s": 6.2,
+     "stoit": 30.7
+    },
+    "3": {
+     "okno": "Огонь берегут",
+     "s": 5.9,
+     "stoit": 27.6
+    },
+    "4": {
+     "okno": "Пещера под Пекином",
+     "s": 14.2,
+     "stoit": 46.5
+    },
+    "5": {
+     "okno": "Огонь добывают сами",
+     "s": 14,
+     "stoit": 52.7
+    },
+    "6": {
+     "okno": "Зачем людям огонь",
+     "s": 14,
+     "stoit": 30.3
+    }
+   },
+   "otrezok": null,
+   "maxFly": 17.2,
+   "flyMax": "fly peshchera",
+   "maxJerk": 0.6,
+   "jerkMax": "fly peshchera",
+   "errs": []
+  },
+  "1440x900": {
+   "rows": [
+    {
+     "move": "move",
+     "from": 0.05,
+     "to": 4.45,
+     "max_speed_px_per_frame": 1.1,
+     "jerk_max": 0.01,
+     "jerk_at_s": 4.45,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 5.23,
+     "to": 7.13,
+     "max_speed_px_per_frame": 1.7,
+     "jerk_max": 0.05,
+     "jerk_at_s": 5.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.03,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 7.25,
+     "to": 9.85,
+     "max_speed_px_per_frame": 0.7,
+     "jerk_max": 0.01,
+     "jerk_at_s": 9.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.01
+    },
+    {
+     "move": "fly golovnya",
+     "from": 10.63,
+     "to": 12.63,
+     "max_speed_px_per_frame": 21.5,
+     "jerk_max": 0.92,
+     "jerk_at_s": 11.63,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.38,
+     "speed_out": 0.18
+    },
+    {
+     "move": "move",
+     "from": 14.15,
+     "to": 16.85,
+     "max_speed_px_per_frame": 2.5,
+     "jerk_max": 0.05,
+     "jerk_at_s": 16.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "fly peshchera",
+     "from": 17.22,
+     "to": 18.82,
+     "max_speed_px_per_frame": 24.5,
+     "jerk_max": 0.85,
+     "jerk_at_s": 17.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.27,
+     "speed_out": 0.53
+    },
+    {
+     "move": "move",
+     "from": 19.35,
+     "to": 22.95,
+     "max_speed_px_per_frame": 2.6,
+     "jerk_max": 0.04,
+     "jerk_at_s": 22.95,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "move",
+     "from": 24.03,
+     "to": 27.23,
+     "max_speed_px_per_frame": 1.2,
+     "jerk_max": 0.02,
+     "jerk_at_s": 27.22,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 28.59,
+     "to": 30.29,
+     "max_speed_px_per_frame": 4,
+     "jerk_max": 0.12,
+     "jerk_at_s": 28.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.11
+    },
+    {
+     "move": "drift",
+     "from": 34.75,
+     "to": 37.47,
+     "max_speed_px_per_frame": 0.1,
+     "jerk_max": 0,
+     "jerk_at_s": 37.47,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "fly dobycha",
+     "from": 37.49,
+     "to": 38.99,
+     "max_speed_px_per_frame": 20.9,
+     "jerk_max": 0.73,
+     "jerk_at_s": 38.98,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.13,
+     "speed_out": 0.66
+    },
+    {
+     "move": "move",
+     "from": 40.86,
+     "to": 43.26,
+     "max_speed_px_per_frame": 3.7,
+     "jerk_max": 0.08,
+     "jerk_at_s": 43.23,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.07,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 45.5,
+     "to": 46.9,
+     "max_speed_px_per_frame": 5.2,
+     "jerk_max": 0.2,
+     "jerk_at_s": 45.53,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.1,
+     "speed_out": 0.1
+    },
+    {
+     "move": "move",
+     "from": 49.95,
+     "to": 51.45,
+     "max_speed_px_per_frame": 3.4,
+     "jerk_max": 0.12,
+     "jerk_at_s": 51.45,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.06,
+     "speed_out": 0.06
+    },
+    {
+     "move": "fly koster",
+     "from": 51.6,
+     "to": 53.2,
+     "max_speed_px_per_frame": 22.9,
+     "jerk_max": 0.78,
+     "jerk_at_s": 51.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.39,
+     "speed_out": 0.36
+    },
+    {
+     "move": "drift",
+     "from": 53.55,
+     "to": 55.93,
+     "max_speed_px_per_frame": 0.3,
+     "jerk_max": 0.01,
+     "jerk_at_s": 53.6,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 56.13,
+     "to": 57.73,
+     "max_speed_px_per_frame": 3.6,
+     "jerk_max": 0.12,
+     "jerk_at_s": 57.72,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.08,
+     "speed_out": 0.04
+    },
+    {
+     "move": "drift",
+     "from": 58.41,
+     "to": 60.15,
+     "max_speed_px_per_frame": 0.4,
+     "jerk_max": 0.01,
+     "jerk_at_s": 60.15,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 60.75,
+     "to": 62.95,
+     "max_speed_px_per_frame": 2.5,
+     "jerk_max": 0.06,
+     "jerk_at_s": 62.93,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.03,
+     "speed_out": 0.03
+    },
+    {
+     "move": "move",
+     "from": 63.58,
+     "to": 65.18,
+     "max_speed_px_per_frame": 2.4,
+     "jerk_max": 0.08,
+     "jerk_at_s": 65.17,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.05,
+     "speed_out": 0.03
+    }
+   ],
+   "cuts": [
+    {
+     "kind": "cut molniya",
+     "t": 0,
+     "end": 0
+    },
+    {
+     "kind": "cut razrez",
+     "t": 23.98,
+     "end": 23.98
+    }
+   ],
+   "top": [
+    {
+     "t": 66.48,
+     "dv": 1.96,
+     "idet": "-"
+    },
+    {
+     "t": 66.82,
+     "dv": 1.26,
+     "idet": "-"
+    },
+    {
+     "t": 68.42,
+     "dv": 1.08,
+     "idet": "-"
+    },
+    {
+     "t": 68.08,
+     "dv": 0.98,
+     "idet": "-"
+    },
+    {
+     "t": 11.63,
+     "dv": 0.92,
+     "idet": "fly golovnya"
+    },
+    {
+     "t": 17.27,
+     "dv": 0.85,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 51.63,
+     "dv": 0.78,
+     "idet": "fly koster"
+    },
+    {
+     "t": 18.82,
+     "dv": 0.75,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 67.75,
+     "dv": 0.74,
+     "idet": "-"
+    },
+    {
+     "t": 38.98,
+     "dv": 0.73,
+     "idet": "fly dobycha"
+    },
+    {
+     "t": 37.53,
+     "dv": 0.72,
+     "idet": "fly dobycha"
+    },
+    {
+     "t": 53.2,
+     "dv": 0.72,
+     "idet": "fly koster"
+    }
+   ],
+   "vnahlyost": [],
+   "still": [
+    [
+     30.3,
+     35.2
+    ],
+    [
+     46.92,
+     49.97
+    ]
+   ],
+   "fin": 66.48,
+   "vsego": {
+    "stoit": 36,
+    "stoitS": 23.9,
+    "polzyot": 11.5,
+    "polzyotS": 7.6,
+    "dlina": 66.5
+   },
+   "poOknam": {
+    "1": {
+     "okno": "Огонь от молнии",
+     "s": 11.6,
+     "stoit": 17.7
+    },
+    "2": {
+     "okno": "Огонь несут в пещеру",
+     "s": 6.2,
+     "stoit": 30.7
+    },
+    "3": {
+     "okno": "Огонь берегут",
+     "s": 5.9,
+     "stoit": 27
+    },
+    "4": {
+     "okno": "Пещера под Пекином",
+     "s": 14.2,
+     "stoit": 48.4
+    },
+    "5": {
+     "okno": "Огонь добывают сами",
+     "s": 14,
+     "stoit": 52.2
+    },
+    "6": {
+     "okno": "Зачем людям огонь",
+     "s": 14,
+     "stoit": 29.9
+    }
+   },
+   "otrezok": null,
+   "maxFly": 24.5,
+   "flyMax": "fly peshchera",
+   "maxJerk": 0.92,
+   "jerkMax": "fly golovnya",
+   "errs": []
+  },
+  "735x815": {
+   "rows": [
+    {
+     "move": "move",
+     "from": 0.05,
+     "to": 4.45,
+     "max_speed_px_per_frame": 0.6,
+     "jerk_max": 0.01,
+     "jerk_at_s": 4.45,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 5.23,
+     "to": 7.13,
+     "max_speed_px_per_frame": 0.9,
+     "jerk_max": 0.03,
+     "jerk_at_s": 5.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 7.25,
+     "to": 9.85,
+     "max_speed_px_per_frame": 0.4,
+     "jerk_max": 0.01,
+     "jerk_at_s": 9.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "fly golovnya",
+     "from": 10.63,
+     "to": 12.63,
+     "max_speed_px_per_frame": 13.7,
+     "jerk_max": 0.53,
+     "jerk_at_s": 11.63,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.22,
+     "speed_out": 0.1
+    },
+    {
+     "move": "move",
+     "from": 14.15,
+     "to": 16.85,
+     "max_speed_px_per_frame": 1.6,
+     "jerk_max": 0.03,
+     "jerk_at_s": 16.85,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "fly peshchera",
+     "from": 17.22,
+     "to": 18.82,
+     "max_speed_px_per_frame": 14.8,
+     "jerk_max": 0.52,
+     "jerk_at_s": 17.27,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.16,
+     "speed_out": 0.32
+    },
+    {
+     "move": "move",
+     "from": 19.35,
+     "to": 22.95,
+     "max_speed_px_per_frame": 1.1,
+     "jerk_max": 0.02,
+     "jerk_at_s": 22.92,
+     "jerk_per_speed": 0.01,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 24.03,
+     "to": 27.23,
+     "max_speed_px_per_frame": 0.7,
+     "jerk_max": 0.01,
+     "jerk_at_s": 27.22,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 28.59,
+     "to": 30.29,
+     "max_speed_px_per_frame": 2.5,
+     "jerk_max": 0.08,
+     "jerk_at_s": 28.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0.07
+    },
+    {
+     "move": "drift",
+     "from": 34.75,
+     "to": 37.47,
+     "max_speed_px_per_frame": 0.1,
+     "jerk_max": 0,
+     "jerk_at_s": 37.47,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "fly dobycha",
+     "from": 37.49,
+     "to": 38.99,
+     "max_speed_px_per_frame": 13.5,
+     "jerk_max": 0.48,
+     "jerk_at_s": 38.98,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.08,
+     "speed_out": 0.43
+    },
+    {
+     "move": "move",
+     "from": 40.86,
+     "to": 43.26,
+     "max_speed_px_per_frame": 1.6,
+     "jerk_max": 0.04,
+     "jerk_at_s": 40.92,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.03,
+     "speed_out": 0.01
+    },
+    {
+     "move": "move",
+     "from": 45.5,
+     "to": 46.9,
+     "max_speed_px_per_frame": 2.3,
+     "jerk_max": 0.08,
+     "jerk_at_s": 46.9,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.04,
+     "speed_out": 0.04
+    },
+    {
+     "move": "move",
+     "from": 49.95,
+     "to": 51.45,
+     "max_speed_px_per_frame": 1.8,
+     "jerk_max": 0.07,
+     "jerk_at_s": 51.45,
+     "jerk_per_speed": 0.04,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.03,
+     "speed_out": 0.03
+    },
+    {
+     "move": "fly koster",
+     "from": 51.6,
+     "to": 53.2,
+     "max_speed_px_per_frame": 14.9,
+     "jerk_max": 0.51,
+     "jerk_at_s": 51.63,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.25,
+     "speed_out": 0.23
+    },
+    {
+     "move": "drift",
+     "from": 53.55,
+     "to": 55.93,
+     "max_speed_px_per_frame": 0.3,
+     "jerk_max": 0.01,
+     "jerk_at_s": 53.6,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 56.13,
+     "to": 57.73,
+     "max_speed_px_per_frame": 2.2,
+     "jerk_max": 0.07,
+     "jerk_at_s": 57.72,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.05,
+     "speed_out": 0.02
+    },
+    {
+     "move": "drift",
+     "from": 58.41,
+     "to": 60.15,
+     "max_speed_px_per_frame": 0.3,
+     "jerk_max": 0.01,
+     "jerk_at_s": 60.15,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.01,
+     "speed_out": 0
+    },
+    {
+     "move": "move",
+     "from": 60.75,
+     "to": 62.95,
+     "max_speed_px_per_frame": 1.5,
+     "jerk_max": 0.04,
+     "jerk_at_s": 62.93,
+     "jerk_per_speed": 0.02,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.02
+    },
+    {
+     "move": "move",
+     "from": 63.58,
+     "to": 65.18,
+     "max_speed_px_per_frame": 0.7,
+     "jerk_max": 0.02,
+     "jerk_at_s": 63.62,
+     "jerk_per_speed": 0.03,
+     "zoom_reversals": 0,
+     "stops": 0,
+     "speed_in": 0.02,
+     "speed_out": 0.01
+    }
+   ],
+   "cuts": [
+    {
+     "kind": "cut molniya",
+     "t": 0,
+     "end": 0
+    },
+    {
+     "kind": "cut razrez",
+     "t": 23.98,
+     "end": 23.98
+    }
+   ],
+   "top": [
+    {
+     "t": 66.52,
+     "dv": 1.27,
+     "idet": "-"
+    },
+    {
+     "t": 66.85,
+     "dv": 0.65,
+     "idet": "-"
+    },
+    {
+     "t": 68.42,
+     "dv": 0.6,
+     "idet": "-"
+    },
+    {
+     "t": 68.08,
+     "dv": 0.55,
+     "idet": "-"
+    },
+    {
+     "t": 11.63,
+     "dv": 0.53,
+     "idet": "fly golovnya"
+    },
+    {
+     "t": 17.27,
+     "dv": 0.52,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 51.63,
+     "dv": 0.51,
+     "idet": "fly koster"
+    },
+    {
+     "t": 38.98,
+     "dv": 0.48,
+     "idet": "fly dobycha"
+    },
+    {
+     "t": 53.2,
+     "dv": 0.47,
+     "idet": "fly koster"
+    },
+    {
+     "t": 37.53,
+     "dv": 0.47,
+     "idet": "fly dobycha"
+    },
+    {
+     "t": 18.82,
+     "dv": 0.46,
+     "idet": "fly peshchera"
+    },
+    {
+     "t": 67.75,
+     "dv": 0.43,
+     "idet": "-"
+    }
+   ],
+   "vnahlyost": [],
+   "still": [
+    [
+     30.3,
+     35.1
+    ],
+    [
+     46.9,
+     49.98
+    ]
+   ],
+   "fin": 66.48,
+   "vsego": {
+    "stoit": 36.3,
+    "stoitS": 24.1,
+    "polzyot": 17.5,
+    "polzyotS": 11.6,
+    "dlina": 66.5
+   },
+   "poOknam": {
+    "1": {
+     "okno": "Огонь от молнии",
+     "s": 11.6,
+     "stoit": 19.6
+    },
+    "2": {
+     "okno": "Огонь несут в пещеру",
+     "s": 6.3,
+     "stoit": 31.2
+    },
+    "3": {
+     "okno": "Огонь берегут",
+     "s": 5.9,
+     "stoit": 28.1
+    },
+    "4": {
+     "okno": "Пещера под Пекином",
+     "s": 14.2,
+     "stoit": 47.5
+    },
+    "5": {
+     "okno": "Огонь добывают сами",
+     "s": 14,
+     "stoit": 53.2
+    },
+    "6": {
+     "okno": "Зачем людям огонь",
+     "s": 14,
+     "stoit": 29.2
+    }
+   },
+   "otrezok": null,
+   "maxFly": 14.9,
+   "flyMax": "fly koster",
+   "maxJerk": 0.53,
+   "jerkMax": "fly golovnya",
+   "errs": []
+  }
+ }
+}

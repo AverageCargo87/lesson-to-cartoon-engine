@@ -1,0 +1,26 @@
+{
+  "name": "lesson-to-cartoon-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deterministic, narration-driven cartoon engine for school lessons: layered windows, word-synced camera and effects, WebGL patches, quiz bank and a numeric visual QA suite.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "serve": "node qa/serve.mjs 41300",
+    "test": "node --test \"qa/tests/*.test.mjs\"",
+    "qa": "node qa/kino-priemka.mjs demo/fire/index.html",
+    "qa:fast": "node qa/kino-priemka.mjs demo/fire/index.html --bystro",
+    "walk": "node qa/quiz-walk.mjs demo/fire/index.html",
+    "video": "node qa/kino-video.mjs demo/fire/index.html --rezhim=1280x720 --out=release-assets/video"
+  },
+  "dependencies": {
+    "gsap": "3.12.5"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1",
+    "sharp": "0.34.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

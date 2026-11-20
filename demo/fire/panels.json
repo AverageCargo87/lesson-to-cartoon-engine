@@ -1,0 +1,13 @@
+{
+ "molniya": "w1-derevo",
+ "golovnya": "w2-golovnya",
+ "peshchera": "w3-noch",
+ "razrez": "w4-rost",
+ "trenie": "w5-trenie",
+ "dymok": "w5-dymok",
+ "ogonek": "w5-ogonek",
+ "iskry": "w5-iskry",
+ "eda": "w6-eda",
+ "koster": "w6-koster",
+ "zver": ["w6-zver", 0.15, 0.2, 0.85, 0.95]
+}

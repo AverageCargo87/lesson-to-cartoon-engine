@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cartoon Engine Demo</title>
+<link rel="icon" href="data:,">
+<style>
+ :root{--bg:#0d0a08;--panel:#17120d;--ink:#f3ece0;--dim:#b9ad9a;--accent:#e8a14a;--line:rgba(240,180,110,.3)}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,sans-serif}
+ header{padding:18px 16px 6px;max-width:1240px;margin:0 auto}
+ h1{margin:0 0 4px;font-size:22px}
+ header p{margin:0;color:var(--dim)}
+ main{display:grid;grid-template-columns:minmax(0,735px) minmax(0,1fr);gap:16px;padding:12px 16px 24px;max-width:1240px;margin:0 auto}
+ .frame{background:#000;border:1px solid var(--line);border-radius:8px;overflow:hidden;aspect-ratio:735/587}
+ iframe{width:100%;height:100%;border:0;display:block}
+ .side{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:10px;min-height:0}
+ .row{display:flex;flex-wrap:wrap;gap:6px}
+ button{background:#2a1f15;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:7px 11px;font:inherit;cursor:pointer}
+ button:hover{border-color:var(--accent)}
+ #log{flex:1;min-height:220px;max-height:420px;overflow:auto;margin:0;background:#0b0806;border-radius:6px;padding:8px;font:12px/1.5 ui-monospace,Consolas,monospace;color:#e9dcc7;white-space:pre-wrap}
+ a{color:var(--accent)}
+ .links{color:var(--dim);font-size:13px}
+ @media (max-width:900px){main{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+ <h1>Audio-synced cartoon engine: host page</h1>
+ <p>The scene runs in an iframe exactly as it does inside a lesson. It reports <code>ready</code>, <code>beat</code>, <code>end</code> and quiz results by postMessage; the host can send <code>play</code>, <code>pause</code> and <code>seek</code>. The lesson content is in Russian.</p>
+</header>
+<main>
+ <div class="frame"><iframe id="scene" src="fire/index.html?lenta=1" title="Cartoon scene" allow="autoplay; microphone"></iframe></div>
+ <div class="side">
+  <div class="row">
+   <button data-cmd="play">play</button><button data-cmd="pause">pause</button>
+   <button data-seek="0">seek 0 s</button><button data-seek="24.9">seek 24.9 s</button><button data-seek="53.7">seek 53.7 s</button>
+   <button id="reload">reload</button>
+  </div>
+  <div class="row">
+   <button data-src="fire/index.html?lenta=1">lesson flow</button>
+   <button data-src="fire/index.html?fin=1&amp;test=vall">board + all task kinds</button>
+   <button data-src="fire/index.html?t=33.6">still frame ?t=33.6</button>
+  </div>
+  <pre id="log">messages from the scene appear here</pre>
+  <div class="links">Open the scene alone: <a href="fire/index.html">fire/index.html</a> · source and docs: the repository README.</div>
+ </div>
+</main>
+<script>
+const frame = document.getElementById('scene'), log = document.getElementById('log');
+let lines = [];
+function write(text) { lines.push(text); lines = lines.slice(-80); log.textContent = lines.join('\n'); log.scrollTop = log.scrollHeight; }
+addEventListener('message', e => {
+  if (e.origin !== location.origin || !e.data || e.data.source !== 'multik') return;
+  const {type, ...rest} = e.data; delete rest.source;
+  if (type === 'ready') rest.beats = rest.beats.length + ' phrases';
+  write(`${new Date().toTimeString().slice(0, 8)}  ${type}  ${JSON.stringify(rest)}`);
+});
+const send = msg => frame.contentWindow.postMessage(Object.assign({target: 'multik'}, msg), location.origin);
+document.querySelectorAll('[data-cmd]').forEach(b => b.onclick = () => send({cmd: b.dataset.cmd}));
+document.querySelectorAll('[data-seek]').forEach(b => b.onclick = () => send({cmd: 'seek', t: +b.dataset.seek}));
+document.querySelectorAll('[data-src]').forEach(b => b.onclick = () => { lines = []; frame.src = b.dataset.src; });
+document.getElementById('reload').onclick = () => { lines = []; frame.src = frame.src; };
+</script>
+</body>
+</html>

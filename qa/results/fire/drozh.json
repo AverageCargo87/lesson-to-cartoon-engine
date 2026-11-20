@@ -1,0 +1,11 @@
+{
+ "url": "http://localhost:41308/demo/fire/index.html",
+ "dsf": 1,
+ "mode": "auto",
+ "sizes": {
+  "735x587": {
+   "probes": {},
+   "errs": []
+  }
+ }
+}

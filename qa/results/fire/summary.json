@@ -1,0 +1,266 @@
+{
+ "scene": "demo/fire/index.html",
+ "sizes": [
+  "735x587",
+  "874x648",
+  "1440x900",
+  "735x815"
+ ],
+ "when": "2026-11-20T18:35:24.786Z",
+ "checks": [
+  {
+   "id": "seek",
+   "title": "Seeking gives the same frame (?t=, jump forward/back, frame by frame)",
+   "status": "green",
+   "detail": "16 s: back identical, stepwise 103.2 dB; 32 s: back identical, stepwise identical; 48 s: back identical, stepwise identical; 64 s: back identical, stepwise identical (PSNR, 99 = no difference; threshold 60 dB)"
+  },
+  {
+   "id": "contact",
+   "title": "Contact sheet 1 fps, 735x587",
+   "status": "info",
+   "detail": "80 frames on 4 sheets: contact-735x587-01.jpg, contact-735x587-02.jpg, contact-735x587-03.jpg, contact-735x587-04.jpg"
+  },
+  {
+   "id": "reduce",
+   "title": "prefers-reduced-motion: the whole timeline and the board without errors",
+   "status": "green",
+   "detail": "no errors"
+  },
+  {
+   "id": "console",
+   "title": "Loading: no console errors or warnings, no 404",
+   "status": "green",
+   "detail": "clean"
+  },
+  {
+   "id": "flicker",
+   "title": "Label flicker (kino-migania, 735x587): 0",
+   "status": "green",
+   "detail": "no flickering labels in frame (canvas layers / shade with findings: 7, see migania.txt)"
+  },
+  {
+   "id": "labels-735x587",
+   "title": "Labels 735x587: fully in frame, not on the subtitle, not overlapping, not hanging",
+   "status": "green",
+   "detail": "of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0"
+  },
+  {
+   "id": "numbers-735x587",
+   "title": "Window numbers hidden until the finale (735x587)",
+   "status": "green",
+   "detail": "not visible"
+  },
+  {
+   "id": "subtitle-735x587",
+   "title": "Subtitle and chapter insets in frame (735x587)",
+   "status": "green",
+   "detail": "subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0"
+  },
+  {
+   "id": "labels-874x648",
+   "title": "Labels 874x648: fully in frame, not on the subtitle, not overlapping, not hanging",
+   "status": "green",
+   "detail": "of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0"
+  },
+  {
+   "id": "numbers-874x648",
+   "title": "Window numbers hidden until the finale (874x648)",
+   "status": "green",
+   "detail": "not visible"
+  },
+  {
+   "id": "subtitle-874x648",
+   "title": "Subtitle and chapter insets in frame (874x648)",
+   "status": "green",
+   "detail": "subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0"
+  },
+  {
+   "id": "labels-1440x900",
+   "title": "Labels 1440x900: fully in frame, not on the subtitle, not overlapping, not hanging",
+   "status": "green",
+   "detail": "of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0"
+  },
+  {
+   "id": "numbers-1440x900",
+   "title": "Window numbers hidden until the finale (1440x900)",
+   "status": "green",
+   "detail": "not visible"
+  },
+  {
+   "id": "subtitle-1440x900",
+   "title": "Subtitle and chapter insets in frame (1440x900)",
+   "status": "green",
+   "detail": "subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0"
+  },
+  {
+   "id": "labels-735x815",
+   "title": "Labels 735x815: fully in frame, not on the subtitle, not overlapping, not hanging",
+   "status": "green",
+   "detail": "of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0"
+  },
+  {
+   "id": "numbers-735x815",
+   "title": "Window numbers hidden until the finale (735x815)",
+   "status": "green",
+   "detail": "not visible"
+  },
+  {
+   "id": "subtitle-735x815",
+   "title": "Subtitle and chapter insets in frame (735x815)",
+   "status": "green",
+   "detail": "subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0"
+  },
+  {
+   "id": "board-735x587",
+   "title": "Board 735x587: labels not under a button or card, the focused window whole",
+   "status": "green",
+   "detail": "clean"
+  },
+  {
+   "id": "board-874x648",
+   "title": "Board 874x648: labels not under a button or card, the focused window whole",
+   "status": "green",
+   "detail": "clean"
+  },
+  {
+   "id": "board-1440x900",
+   "title": "Board 1440x900: labels not under a button or card, the focused window whole",
+   "status": "green",
+   "detail": "clean"
+  },
+  {
+   "id": "board-735x815",
+   "title": "Board 735x815: labels not under a button or card, the focused window whole",
+   "status": "green",
+   "detail": "clean"
+  },
+  {
+   "id": "flight-735x587",
+   "title": "Flights not faster than 30 px/frame (735x587)",
+   "status": "green",
+   "detail": "fastest 15.5 px/frame (fly peshchera); cuts (not counted): 2"
+  },
+  {
+   "id": "jerk-735x587",
+   "title": "Camera jerk <= 0.7 (735x587)",
+   "status": "green",
+   "detail": "sharpest 0.54 (fly peshchera); overlapping: none"
+  },
+  {
+   "id": "overlap",
+   "title": "Camera moves do not overlap",
+   "status": "green",
+   "detail": "none"
+  },
+  {
+   "id": "still",
+   "title": "Camera stands still <= 40 % of the time before the finale",
+   "status": "green",
+   "detail": "still 36.4 % (24.2 s), creeping another 16.8 %; per window: 1 19.6 %, 2 31.3 %, 3 27.8 %, 4 47 %, 5 52.8 %, 6 30.8 %; stills > 2.5 s: 2"
+  },
+  {
+   "id": "flight-874x648",
+   "title": "Flights not faster than 30 px/frame (874x648, for reference)",
+   "status": "info",
+   "detail": "fastest 17.2 px/frame (fly peshchera); cuts (not counted): 2"
+  },
+  {
+   "id": "jerk-874x648",
+   "title": "Camera jerk <= 0.7 (874x648, for reference)",
+   "status": "info",
+   "detail": "sharpest 0.6 (fly peshchera); overlapping: none"
+  },
+  {
+   "id": "flight-1440x900",
+   "title": "Flights not faster than 30 px/frame (1440x900, for reference)",
+   "status": "info",
+   "detail": "fastest 24.5 px/frame (fly peshchera); cuts (not counted): 2"
+  },
+  {
+   "id": "jerk-1440x900",
+   "title": "Camera jerk <= 0.7 (1440x900, for reference)",
+   "status": "info",
+   "detail": "sharpest 0.92 (fly golovnya); overlapping: none"
+  },
+  {
+   "id": "flight-735x815",
+   "title": "Flights not faster than 30 px/frame (735x815, for reference)",
+   "status": "info",
+   "detail": "fastest 14.9 px/frame (fly koster); cuts (not counted): 2"
+  },
+  {
+   "id": "jerk-735x815",
+   "title": "Camera jerk <= 0.7 (735x815, for reference)",
+   "status": "info",
+   "detail": "sharpest 0.53 (fly golovnya); overlapping: none"
+  },
+  {
+   "id": "dead",
+   "title": "No dead stretches >= 2.5 s (voice speaks, nothing new in frame; STRICT=1)",
+   "status": "green",
+   "detail": "none"
+  },
+  {
+   "id": "effects",
+   "title": "Strong effects follow the rules (on the word, one per phrase, shake <= 3, flashes <= 3, WebGL <= 2)",
+   "status": "green",
+   "detail": "effects 4, shakes 0, flashes 2, WebGL at once up to 0"
+  },
+  {
+   "id": "jitter-735x587",
+   "title": "Glyph jitter <= 0.12 px on average and <= 8 jumps > 0.2 px per probe (735x587, 0 probes)",
+   "status": "green",
+   "detail": "all probes calm"
+  }
+ ],
+ "numbers": {
+  "total": 80,
+  "seekMinPSNR": 99,
+  "errors": 0,
+  "warnings": 0,
+  "flicker": 0,
+  "labels_735x587": 0,
+  "numbers_735x587": 0,
+  "labels_874x648": 0,
+  "numbers_874x648": 0,
+  "labels_1440x900": 0,
+  "numbers_1440x900": 0,
+  "labels_735x815": 0,
+  "numbers_735x815": 0,
+  "board_735x587": 0,
+  "board_874x648": 0,
+  "board_1440x900": 0,
+  "board_735x815": 0,
+  "flight_735x587": 15.5,
+  "jerk_735x587": 0.54,
+  "still": 36.4,
+  "stills": 2,
+  "flight_874x648": 17.2,
+  "jerk_874x648": 0.6,
+  "flight_1440x900": 24.5,
+  "jerk_1440x900": 0.92,
+  "flight_735x815": 14.9,
+  "jerk_735x815": 0.53,
+  "dead": 0,
+  "deadS": 0,
+  "effects": 4,
+  "violations": 0,
+  "jitterProbes": 0,
+  "jitterBad": 0,
+  "jitterWorst": 0
+ },
+ "files": {
+  "contact": [
+   "contact-735x587-01.jpg",
+   "contact-735x587-02.jpg",
+   "contact-735x587-03.jpg",
+   "contact-735x587-04.jpg"
+  ],
+  "nadpisi": "nadpisi.txt",
+  "doska": "doska.txt",
+  "migania": "migania.txt",
+  "plavnost": "plavnost.txt",
+  "sobytiya": "sobytiya.txt",
+  "drozh": "drozh.txt"
+ }
+}

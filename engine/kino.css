@@ -1,0 +1,76 @@
+/* Scene core styles: labels, board, summary sheet, board mode, subtitle. A scene overrides colours in its own page. */
+:root{--mk-bg:#221b15;--mk-ink:#1d1712;--mk-paper:#f1e8d3;--mk-accent:#c8402e;--mk-track:rgba(241,232,211,.25);--mk-font:'Old Standard TT',Georgia,serif}
+#cv{position:fixed;inset:0;width:100%;height:100%;display:block;background:#221b15}
+/* labels live in board coordinates; the camera moves the whole layer */
+#ov{position:fixed;left:0;top:0;width:0;height:0;transform-origin:0 0;pointer-events:none;z-index:1}
+#ov>*{position:absolute;left:0;top:0;rotate:.05deg}
+.tx{display:inline-block}
+.tag{font-family:'PT Mono',monospace;color:#1d1712;background:#efe4c9;padding:.42em .8em .36em;white-space:nowrap;line-height:1;clip-path:var(--tear3);filter:drop-shadow(0 .18em .22em rgba(0,0,0,.5))}
+.dymo{font-family:'PT Mono',monospace;background:#1f1f22;color:#f3f0e8;letter-spacing:.12em;border-radius:.14em;padding:.4em .7em;white-space:nowrap;line-height:1;box-shadow:inset 0 -.1em 0 rgba(255,255,255,.08),0 .2em .35em rgba(0,0,0,.45)}
+.hand{font-family:'Caveat',cursive;font-weight:700;color:#d0412c;white-space:nowrap;line-height:1.02;text-shadow:0 0 .03em rgba(208,65,44,.4),0 .04em .12em rgba(255,240,220,.55)}
+.hand.light{color:#ffd9b0;text-shadow:0 .05em .2em rgba(0,0,0,.8)}
+.cut{display:flex;gap:.08em;align-items:flex-end}
+.cut .strike{position:absolute;left:-8%;right:-8%;top:48%;height:.13em;border-radius:.1em;background:#d0412c;transform-origin:0 50%;box-shadow:0 .03em .06em rgba(0,0,0,.4)}
+.cut b{display:inline-block;padding:.06em .16em .03em;font-weight:900;filter:drop-shadow(0 .08em .08em rgba(0,0,0,.55));clip-path:var(--tear3)}
+/* a title hanging on threads in the sky of the first window */
+.title{text-align:center;color:#2a1d14}
+.title .card{background:#f3e9d2;padding:.5em 1.1em .55em;clip-path:var(--tearT);filter:drop-shadow(0 .25em .35em rgba(40,20,5,.45))}
+.title b{display:block;font:700 1em/1.05 'Old Standard TT',serif;letter-spacing:.01em}
+.title i{display:block;margin-top:.25em;font:italic .55em/1.1 'Old Standard TT',serif;color:#6a4a32}
+.title .str{position:absolute;top:-3em;width:.06em;height:3em;background:#8a6a4a;opacity:.7}
+/* the caption under a window on the board */
+.wtag{font:italic 30px/1 'Old Standard TT',serif;color:#efe4c9;white-space:nowrap;text-shadow:0 2px 6px rgba(0,0,0,.7)}
+.badge{width:64px;height:64px;border-radius:50%;background:#c8402e;color:#fbf3e2;display:grid;place-items:center;font:700 36px/1 'PT Serif',serif;box-shadow:0 5px 10px rgba(0,0,0,.55),inset 0 -4px 0 rgba(0,0,0,.18)}
+/* the "what we know" sheet (the canvas draws the paper, this is only the text) */
+.ltitle{font:700 64px/1 'Old Standard TT',serif;color:#2a1d14;white-space:nowrap}
+.lunder{height:5px;background:#c8402e;border-radius:3px;transform-origin:0 50%}
+.litem{display:flex;gap:26px;align-items:flex-start;width:920px}
+.litem .n{flex:none;width:54px;height:54px;border-radius:50%;background:#c8402e;color:#fbf3e2;display:grid;place-items:center;font:700 32px/1 'PT Serif',serif;margin-top:-4px;box-shadow:0 3px 5px rgba(0,0,0,.3)}
+.litem .t{font:400 40px/1.25 'Old Standard TT',serif;color:#241a12}
+.litem .t em{font-style:normal;background:linear-gradient(transparent 62%,rgba(232,195,106,.55) 62%)}
+/* board mode after the cartoon: the child drives the camera */
+body.board .mk-cap{opacity:0!important}
+body.board #cv{touch-action:none;cursor:grab}
+body.board.point #cv{cursor:pointer}
+body.board.drag #cv{cursor:grabbing}
+.litem .n{transition:transform .25s}
+.litem.on .t em{background:linear-gradient(transparent 35%,rgba(232,195,106,.95) 35%)}
+.litem.on .n{transform:scale(1.18)}
+#bd{position:fixed;inset:0;pointer-events:none;z-index:3}
+body:not(.board) #bd{display:none}
+#bd button{pointer-events:auto}
+.bd-bar{position:fixed;left:14px;top:58px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;max-width:min(320px,58vw)}
+.bd-bar.hide,.bd-back,.bd-exit{display:none}
+.bd-back.show,.bd-exit.show{display:block}
+.bd-hint{background:rgba(239,230,207,.95);color:#2a1d14;padding:9px 13px 8px;font:15px/1.32 'Old Standard TT',serif;border-radius:3px;box-shadow:0 4px 10px rgba(0,0,0,.4)}
+.bd-btn{border:0;cursor:pointer;font:15px/1 'PT Mono',monospace;letter-spacing:.04em;padding:11px 16px;border-radius:3px;background:#c8402e;color:#fbf3e2;box-shadow:0 4px 10px rgba(0,0,0,.45)}
+.bd-btn:hover{filter:brightness(1.08)}
+.bd-btn.light{background:#efe6cf;color:#2a1d14}
+.bd-back,.bd-exit{position:fixed;left:14px;top:58px}
+.bd-fact{position:fixed;left:50%;bottom:66px;transform:translateX(-50%) rotate(-.4deg);width:max-content;max-width:min(820px,88vw);background:#efe6cf;clip-path:var(--tearcap);padding:12px 30px 13px;font:clamp(17px,1.9vw,23px)/1.4 'Old Standard TT',serif;color:#1e1a15;filter:drop-shadow(0 6px 10px rgba(0,0,0,.6));opacity:0;transition:opacity .45s}
+.bd-fact em{font-style:normal;background:linear-gradient(transparent 62%,rgba(232,195,106,.6) 62%)}
+.bd-fact .n{display:inline-grid;place-items:center;width:1.45em;height:1.45em;border-radius:50%;background:#c8402e;color:#fbf3e2;font:700 .8em/1 'PT Serif',serif;margin-right:.5em;vertical-align:.12em}
+.bd-quiz{position:fixed;left:50%;top:58px;transform:translateX(-50%);width:min(560px,78vw);background:#f3ead6;color:#2a1d14;padding:14px 22px 15px;filter:drop-shadow(0 8px 14px rgba(0,0,0,.55));clip-path:var(--tearT);text-align:center;opacity:0;transition:opacity .45s}
+.bd-quiz small{display:block;font:13px/1 'PT Mono',monospace;letter-spacing:.12em;color:#8a5a3a;text-transform:uppercase;margin-bottom:8px}
+.bd-quiz p{margin:0;font:700 clamp(18px,2vw,24px)/1.25 'Old Standard TT',serif}
+.bd-quiz .res{margin-top:8px;font:italic 18px/1.2 'Old Standard TT',serif;color:#2e7d48;min-height:1.2em}
+.bd-quiz .res.no{color:#b8322a}
+.bd-fact.show,.bd-quiz.show{opacity:1}
+/* film: vignette and grain */
+#fx{position:fixed;inset:0;pointer-events:none;z-index:1}
+#fx .vig{position:absolute;inset:0;background:radial-gradient(130% 105% at 50% 42%,transparent 60%,rgba(8,5,3,.42))}
+#fx .grain{position:absolute;inset:-50%;background:var(--noise);opacity:.045;mix-blend-mode:soft-light;animation:grain 1.6s steps(4) infinite}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-4%,3%)}40%{transform:translate(3%,-5%)}60%{transform:translate(-6%,-2%)}80%{transform:translate(5%,4%)}}
+/* the subtitle: a strip of paper, as in a collage */
+.mk-cap{bottom:64px;transform:translateX(-50%) rotate(-.4deg);filter:drop-shadow(0 6px 10px rgba(0,0,0,.6))}
+.mk-cap .strip{padding:12px 34px 13px;background:#efe6cf;clip-path:var(--tearcap);font:400 clamp(17px,1.9vw,23px)/1.4 'Old Standard TT',serif;color:#1e1a15}
+.mk-bar{bottom:16px}
+.mk-play{background:#efe6cf;color:#c8402e}
+.mk-time{font-family:'PT Mono',monospace;color:#e9dfc6}
+.mk-dot{border-color:#2a221b}
+.mk-cover{background:radial-gradient(70% 60% at 50% 45%,rgba(36,29,23,.25),rgba(20,15,11,.75))}
+.mk-cover-kicker{font:15px/1 'PT Mono',monospace;color:#f3ead4;letter-spacing:.2em;text-transform:uppercase;text-shadow:0 2px 8px rgba(0,0,0,.7)}
+.mk-cover-title{font:700 clamp(38px,5.4vw,68px)/1.02 'Old Standard TT',serif;color:#fbf3e2;max-width:12ch;text-shadow:0 4px 18px rgba(0,0,0,.7)}
+.mk-cover-sub{font:italic 20px/1.2 'Old Standard TT',serif;color:#f0e2c4;text-shadow:0 2px 8px rgba(0,0,0,.7)}
+.mk-big{font-family:'PT Mono',monospace;font-weight:400;letter-spacing:.08em;text-transform:uppercase;font-size:17px;background:#c8402e;border-radius:3px}
+.mk-again{font-family:'PT Mono',monospace;border-radius:3px;background:#efe6cf}

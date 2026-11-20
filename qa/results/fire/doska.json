@@ -1,0 +1,366 @@
+{
+ "url": "http://localhost:41308/demo/fire/index.html",
+ "step": 0.2,
+ "sizes": {
+  "735x587": {
+   "doska": [
+    {
+     "tag": "overview",
+     "res": [],
+     "okno": null,
+     "fact": null
+    },
+    {
+     "tag": "window 1 molniya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      446,
+      521,
+      709
+     ]
+    },
+    {
+     "tag": "window 2 golovnya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      470,
+      521,
+      356
+     ]
+    },
+    {
+     "tag": "window 3 peshchera",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      470,
+      521,
+      582
+     ]
+    },
+    {
+     "tag": "window 4 razrez",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      470,
+      521,
+      669
+     ]
+    },
+    {
+     "tag": "window 5 dobycha",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      470,
+      521,
+      687
+     ]
+    },
+    {
+     "tag": "window 6 koster",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      470,
+      521,
+      528
+     ]
+    }
+   ],
+   "zamechaniy": 0,
+   "errs": []
+  },
+  "874x648": {
+   "doska": [
+    {
+     "tag": "overview",
+     "res": [],
+     "okno": null,
+     "fact": null
+    },
+    {
+     "tag": "window 1 molniya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      531,
+      582,
+      810
+     ]
+    },
+    {
+     "tag": "window 2 golovnya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      531,
+      582,
+      356
+     ]
+    },
+    {
+     "tag": "window 3 peshchera",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      531,
+      582,
+      582
+     ]
+    },
+    {
+     "tag": "window 4 razrez",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      531,
+      582,
+      669
+     ]
+    },
+    {
+     "tag": "window 5 dobycha",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      531,
+      582,
+      687
+     ]
+    },
+    {
+     "tag": "window 6 koster",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      531,
+      582,
+      528
+     ]
+    }
+   ],
+   "zamechaniy": 0,
+   "errs": []
+  },
+  "1440x900": {
+   "doska": [
+    {
+     "tag": "overview",
+     "res": [],
+     "okno": null,
+     "fact": null
+    },
+    {
+     "tag": "window 1 molniya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      745,
+      834,
+      882
+     ]
+    },
+    {
+     "tag": "window 2 golovnya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      776,
+      834,
+      442
+     ]
+    },
+    {
+     "tag": "window 3 peshchera",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      776,
+      834,
+      736
+     ]
+    },
+    {
+     "tag": "window 4 razrez",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      776,
+      834,
+      847
+     ]
+    },
+    {
+     "tag": "window 5 dobycha",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      776,
+      834,
+      871
+     ]
+    },
+    {
+     "tag": "window 6 koster",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      776,
+      834,
+      665
+     ]
+    }
+   ],
+   "zamechaniy": 0,
+   "errs": []
+  },
+  "735x815": {
+   "doska": [
+    {
+     "tag": "overview",
+     "res": [],
+     "okno": null,
+     "fact": null
+    },
+    {
+     "tag": "window 1 molniya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      674,
+      749,
+      709
+     ]
+    },
+    {
+     "tag": "window 2 golovnya",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      698,
+      749,
+      356
+     ]
+    },
+    {
+     "tag": "window 3 peshchera",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      698,
+      749,
+      582
+     ]
+    },
+    {
+     "tag": "window 4 razrez",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      698,
+      749,
+      669
+     ]
+    },
+    {
+     "tag": "window 5 dobycha",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      698,
+      749,
+      687
+     ]
+    },
+    {
+     "tag": "window 6 koster",
+     "res": [],
+     "okno": {
+      "celikom": true,
+      "pod": []
+     },
+     "fact": [
+      698,
+      749,
+      528
+     ]
+    }
+   ],
+   "zamechaniy": 0,
+   "errs": []
+  }
+ }
+}

@@ -1,0 +1,68 @@
+
+== 735x587
+✓ "litem "1Сначала огонь брали от дерева, кото"" fully in frame 10.0 s (70.0-79.8...)  [size 3.8/7.1 px, under 13 px 10 s]
+✓ "litem "2В пещере огонь берегли день и ночь"" fully in frame 9.0 s (71.0-79.8...)  [size 3.8/7.1 px, under 13 px 9 s]
+✓ "litem "3Под Пекином нашли слой с золой и уг"" fully in frame 8.0 s (72.0-79.8...)  [size 3.8/7.1 px, under 13 px 8 s]
+✓ "litem "4Позже огонь научились добывать сами"" fully in frame 7.0 s (73.0-79.8...)  [size 3.8/7.1 px, under 13 px 7 s]
+✓ "litem "5Огонь давал еду, тепло, свет и защи"" fully in frame 6.0 s (74.0-79.8...)  [size 3.8/7.1 px, under 13 px 6 s]
+✓ "wtag "Огонь от молнии"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Огонь несут в пещеру"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Огонь берегут"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Пещера под Пекином"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Огонь добывают сами"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Зачем людям огонь"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+  window numbers in frame before the finale: none
+  chapter insets: "1 · Огонь от молнии · Африка · около миллиона ле" 3.0-10.8; "2 · Огонь несут в пещеру · Африка · около миллио" 13.0-17.4; "3 · Огонь берегут · день и ночь · день и ночь" 19.2-24.0; "4 · Пещера под Пекином · Китай · около 400 тысяч" 25.6-37.6; "5 · Огонь добывают сами · позже · позже" 38.8-51.6; "6 · Зачем людям огонь" 53.6-56.0
+  subtitle cut by the edge: no
+  total: labels 11, with remarks 0: cut 0, on the subtitle 0, overlapping 0, outside the frame 0, hanging after leaving 0, under the inset 0, beyond the window frame 0, appeared outside the frame 0
+
+== 874x648
+✓ "litem "1Сначала огонь брали от дерева, кото"" fully in frame 10.0 s (70.0-79.8...)  [size 4.5/7.1 px, under 13 px 10 s]
+✓ "litem "2В пещере огонь берегли день и ночь"" fully in frame 9.0 s (71.0-79.8...)  [size 4.5/7.1 px, under 13 px 9 s]
+✓ "litem "3Под Пекином нашли слой с золой и уг"" fully in frame 8.0 s (72.0-79.8...)  [size 4.5/7.1 px, under 13 px 8 s]
+✓ "litem "4Позже огонь научились добывать сами"" fully in frame 7.0 s (73.0-79.8...)  [size 4.5/7.1 px, under 13 px 7 s]
+✓ "litem "5Огонь давал еду, тепло, свет и защи"" fully in frame 6.0 s (74.0-79.8...)  [size 4.5/7.1 px, under 13 px 6 s]
+✓ "wtag "Огонь от молнии"" fully in frame 1.4 s (78.6-79.8...)  [size 8.4/8.4 px, under 13 px 1.4 s]
+✓ "wtag "Огонь несут в пещеру"" fully in frame 1.4 s (78.6-79.8...)  [size 8.4/8.4 px, under 13 px 1.4 s]
+✓ "wtag "Огонь берегут"" fully in frame 1.4 s (78.6-79.8...)  [size 8.4/8.4 px, under 13 px 1.4 s]
+✓ "wtag "Пещера под Пекином"" fully in frame 1.4 s (78.6-79.8...)  [size 8.4/8.4 px, under 13 px 1.4 s]
+✓ "wtag "Огонь добывают сами"" fully in frame 1.4 s (78.6-79.8...)  [size 8.4/8.4 px, under 13 px 1.4 s]
+✓ "wtag "Зачем людям огонь"" fully in frame 1.4 s (78.6-79.8...)  [size 8.4/8.4 px, under 13 px 1.4 s]
+  window numbers in frame before the finale: none
+  chapter insets: "1 · Огонь от молнии · Африка · около миллиона ле" 3.0-10.8; "2 · Огонь несут в пещеру · Африка · около миллио" 13.0-17.4; "3 · Огонь берегут · день и ночь · день и ночь" 19.2-24.0; "4 · Пещера под Пекином · Китай · около 400 тысяч" 25.6-37.6; "5 · Огонь добывают сами · позже · позже" 38.8-51.6; "6 · Зачем людям огонь" 53.6-56.0
+  subtitle cut by the edge: no
+  total: labels 11, with remarks 0: cut 0, on the subtitle 0, overlapping 0, outside the frame 0, hanging after leaving 0, under the inset 0, beyond the window frame 0, appeared outside the frame 0
+
+== 1440x900
+✓ "litem "1Сначала огонь брали от дерева, кото"" fully in frame 10.0 s (70.0-79.8...)  [size 6.6/8.1 px, under 13 px 10 s]
+✓ "litem "2В пещере огонь берегли день и ночь"" fully in frame 9.0 s (71.0-79.8...)  [size 6.6/8.1 px, under 13 px 9 s]
+✓ "litem "3Под Пекином нашли слой с золой и уг"" fully in frame 8.0 s (72.0-79.8...)  [size 6.6/8.1 px, under 13 px 8 s]
+✓ "litem "4Позже огонь научились добывать сами"" fully in frame 7.0 s (73.0-79.8...)  [size 6.6/8.1 px, under 13 px 7 s]
+✓ "litem "5Огонь давал еду, тепло, свет и защи"" fully in frame 6.0 s (74.0-79.8...)  [size 6.6/8.1 px, under 13 px 6 s]
+✓ "wtag "Огонь от молнии"" fully in frame 1.4 s (78.6-79.8...)  [size 12.4/12.4 px, under 13 px 1.4 s]
+✓ "wtag "Огонь несут в пещеру"" fully in frame 1.4 s (78.6-79.8...)  [size 12.4/12.4 px, under 13 px 1.4 s]
+✓ "wtag "Огонь берегут"" fully in frame 1.4 s (78.6-79.8...)  [size 12.4/12.4 px, under 13 px 1.4 s]
+✓ "wtag "Пещера под Пекином"" fully in frame 1.4 s (78.6-79.8...)  [size 12.4/12.4 px, under 13 px 1.4 s]
+✓ "wtag "Огонь добывают сами"" fully in frame 1.4 s (78.6-79.8...)  [size 12.4/12.4 px, under 13 px 1.4 s]
+✓ "wtag "Зачем людям огонь"" fully in frame 1.4 s (78.6-79.8...)  [size 12.4/12.4 px, under 13 px 1.4 s]
+  window numbers in frame before the finale: none
+  chapter insets: "1 · Огонь от молнии · Африка · около миллиона ле" 3.0-10.8; "2 · Огонь несут в пещеру · Африка · около миллио" 13.0-17.4; "3 · Огонь берегут · день и ночь · день и ночь" 19.2-24.0; "4 · Пещера под Пекином · Китай · около 400 тысяч" 25.6-37.6; "5 · Огонь добывают сами · позже · позже" 38.8-51.6; "6 · Зачем людям огонь" 53.6-56.0
+  subtitle cut by the edge: no
+  total: labels 11, with remarks 0: cut 0, on the subtitle 0, overlapping 0, outside the frame 0, hanging after leaving 0, under the inset 0, beyond the window frame 0, appeared outside the frame 0
+
+== 735x815
+✓ "litem "1Сначала огонь брали от дерева, кото"" fully in frame 10.0 s (70.0-79.8...)  [size 3.8/7.1 px, under 13 px 10 s]
+✓ "litem "2В пещере огонь берегли день и ночь"" fully in frame 9.0 s (71.0-79.8...)  [size 3.8/7.1 px, under 13 px 9 s]
+✓ "litem "3Под Пекином нашли слой с золой и уг"" fully in frame 8.0 s (72.0-79.8...)  [size 3.8/7.1 px, under 13 px 8 s]
+✓ "litem "4Позже огонь научились добывать сами"" fully in frame 7.0 s (73.0-79.8...)  [size 3.8/7.1 px, under 13 px 7 s]
+✓ "litem "5Огонь давал еду, тепло, свет и защи"" fully in frame 6.0 s (74.0-79.8...)  [size 3.8/7.1 px, under 13 px 6 s]
+✓ "wtag "Огонь от молнии"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Огонь несут в пещеру"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Огонь берегут"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Пещера под Пекином"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Огонь добывают сами"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+✓ "wtag "Зачем людям огонь"" fully in frame 1.4 s (78.6-79.8...)  [size 7.1/7.1 px, under 13 px 1.4 s]
+  window numbers in frame before the finale: none
+  chapter insets: "1 · Огонь от молнии · Африка · около миллиона ле" 3.0-10.8; "2 · Огонь несут в пещеру · Африка · около миллио" 13.0-17.4; "3 · Огонь берегут · день и ночь · день и ночь" 19.2-24.0; "4 · Пещера под Пекином · Китай · около 400 тысяч" 25.6-37.6; "5 · Огонь добывают сами · позже · позже" 38.8-51.6; "6 · Зачем людям огонь" 53.6-56.0
+  subtitle cut by the edge: no
+  total: labels 11, with remarks 0: cut 0, on the subtitle 0, overlapping 0, outside the frame 0, hanging after leaving 0, under the inset 0, beyond the window frame 0, appeared outside the frame 0

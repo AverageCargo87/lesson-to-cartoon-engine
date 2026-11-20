@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Огонь: мультик-демо</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="../../engine/player.css">
+<link rel="stylesheet" href="../../engine/kino.css">
+<link rel="stylesheet" href="../../quiz/proverka.css">
+<link rel="stylesheet" href="../../quiz/proverki.css">
+<link rel="stylesheet" href="../../quiz/proverki-miks.css">
+<link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<canvas id="cv"></canvas>
+<div id="ov"></div>
+<div id="fx"><div class="vig"></div><div class="grain"></div></div>
+<div class="mk-cap"><div class="strip"><span class="mk-cap-text"></span></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>window.gsap||document.write('<script src="../../node_modules/gsap/dist/gsap.min.js"><\/script>');</script>
+<script src="../../engine/rng.js"></script>
+<script src="../../engine/player.js"></script>
+<script src="../../engine/fxgl.js"></script>
+<script src="../../engine/effekty.js"></script>
+<script src="../../engine/effekty-film.js"></script>
+<script src="../../engine/effekty-epik.js"></script>
+<script>
+// Fonts the core and the kit draw on the canvas: load them up front, so the first frames already use them.
+if(document.fonts)['700 20px Lora','italic 500 20px Lora','700 20px "PT Sans"','400 20px "PT Sans"','700 20px "PT Serif"','400 20px "PT Serif"','500 20px Oswald']
+ .forEach(f=>document.fonts.load(f,'Огонь').catch(()=>{}));
+// Scene config read by engine/kino.js, engine/player.js and engine/kit-epik.js (docs/ENGINE_API.md).
+window.KINO={art:'art/',look:'film',vopros:false,
+ cover:{kicker:'Мультик-демо · история огня',title:'Огонь',sub:''},
+ finaleLabel:'Доска: что мы узнали об огне',
+ board:{w:3120,h:1760},list:{x:1020,y:200,w:1080,h:1360},
+ // six windows: three on the left (top to bottom), three on the right; the summary sheet sits in the middle
+ windows:[
+  {id:'molniya',x:120,y:110,title:'Огонь от молнии',where:'Африка · около миллиона лет назад'},
+  {id:'golovnya',x:120,y:650,title:'Огонь несут в пещеру',where:'Африка · около миллиона лет назад'},
+  {id:'peshchera',x:120,y:1190,title:'Огонь берегут',where:'день и ночь'},
+  {id:'razrez',x:2200,y:110,title:'Пещера под Пекином',where:'Китай · около 400 тысяч лет назад'},
+  {id:'dobycha',x:2200,y:650,title:'Огонь добывают сами',where:'позже'},
+  {id:'koster',x:2200,y:1190,title:'Зачем людям огонь',where:''}],
+ palette:{leaf:'#e8a14a',leaf2:'#ffd08a',leaf3:'#fff0d6',edge:'rgba(240,180,110,.5)',glass:'rgba(18,12,8,.84)',scrim:'10,6,3'},
+ epikFont:"700 X Lora, 'PT Serif', serif",
+ // theme of the core's canvas painters (engine/kino.js, "theme"): dark glass labels with an amber bar, calm titles
+ theme:{
+  ctk:{tag:{font:"'PT Sans', sans-serif",w:700,ls:.02,px:.78,py:.74,bg:'rgba(18,12,8,.82)',ink:'#fbf1e0',bd:.05,bdc:'rgba(240,180,110,.5)',sh:[0,.12],shc:'rgba(0,0,0,.55)',r:.16,blur:.8,bar:'#e8a14a',barW:.17},
+   maptag:{font:"'PT Sans', sans-serif",w:700,ls:.02,px:.5,py:.5,bg:'rgba(18,12,8,.84)',ink:'#fbf1e0',bd:.05,bdc:'rgba(240,180,110,.45)',sh:[0,.1],shc:'rgba(0,0,0,.55)',r:.14,blur:.6,bar:'#e8a14a',barW:.14,nbg:'rgba(12,8,5,.94)',nink:'#ffd08a',nring:'#e8a14a'},
+   dymo:{font:"'PT Sans', sans-serif",w:700,ls:.06,px:.8,py:.82,bg:'rgba(12,8,5,.9)',ink:'#ffd08a',bd:.05,bdc:'rgba(240,180,110,.35)',sh:[0,.12],shc:'rgba(0,0,0,.55)',r:.14,blur:.7}},
+  word:{font:"Lora, 'PT Serif', serif",w:700,k:1.1,ls:.015,fill:'#fff6e6',stroke:null,sw:0,shadow:null,glow:'rgba(255,200,140,.22)',gb:.14,dark:'rgba(0,0,0,.85)',db:.22,scrim:'10,6,3',drop:0,sc:1.05,dur:.65},
+  hand:{font:'Lora, serif',style:'italic',w:500,fill:'#fbefd8',halo:null,lfill:'#fffaf0',lstroke:null,plate:'rgba(12,8,5,.62)',shadow:'rgba(0,0,0,.92)',sb:.3,scrim:'10,6,3',rotK:.4},
+  line:{style:'glow',rgb:'255,190,120',core:'255,248,236'},
+  river:{style:'glow',rgb:'120,200,255',core:'226,246,255'},
+  dot:{style:'glow',rgb:'255,190,120',core:'255,248,236'},
+  bird:{color:'#1d1610',w:.32},
+  frame:{style:'film'},
+  board:{bg:'#0a0705',base:[19,14,10],lamp:'255,205,150',lampA:.07,edgeA:.45},
+  flash:{leak:false},
+  motion:{soft:true,rotK:.2}},
+ // subtitles: hide in long pauses, highlight the spoken word, page long phrases, smoothed clock, one bar segment per window
+ player:{capGap:true,capGapAfter:.05,capWords:true,capPages:true,smoothClock:true,dotGroups:['S1a','S2a','S2b','S3a','S5','S8a']}};
+</script>
+<!-- quiz after the cartoon (?test=v1|v2|vall|none): engine quiz kit + this scene's task bank -->
+<script>window.TEST=new URLSearchParams(location.search).get('test')||'v1';window.LENTA=new URLSearchParams(location.search).get('lenta')==='1';</script>
+<script src="../../quiz/proverki-kit.js"></script>
+<script src="quiz-fire.js"></script>
+<script src="../../quiz/proverka-bank.js"></script>
+<script>if(window.PROVERKI&&window.PROVERKI[TEST])window.PROVERKA=window.PROVERKI[TEST];</script>
+<!-- windows and the summary; the core comes last -->
+<script src="../../engine/kit-epik.js"></script>
+<script src="okna/w1.js"></script>
+<script src="okna/w2.js"></script>
+<script src="okna/w3.js"></script>
+<script src="okna/w4.js"></script>
+<script src="okna/w5.js"></script>
+<script src="okna/w6.js"></script>
+<script src="okna/itog.js"></script>
+<script src="../../engine/kino.js"></script>
+</body>
+</html>

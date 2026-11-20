@@ -1,0 +1,26 @@
+S1a       phrase 1.6-4.6  events 2  first new thing in frame after 1.1 s (1Огонь от молнииАфрика · около миллиона )
+S1b       phrase 7.6-10.5  events 6  first new thing in frame after 0.6 s (drawing)
+S2a       phrase 14.4-16.9  events 7  first new thing in frame after -0.3 s (?)
+S2b       phrase 19.6-23.6  events 14  first new thing in frame after -0.3 s (?)
+S3a       phrase 24.9-28.4  events 6  first new thing in frame after 0.4 s (4Пещера под ПекиномКитай · около 400 тыс)
+S3b       phrase 30.4-33.5  events 7  first new thing in frame after 0.3 s (drawing)
+S4        phrase 34.3-37.4  events 4  first new thing in frame after 0.3 s (light)
+S5        phrase 37.9-40.8  events 4  first new thing in frame after -0.1 s (drawing)
+S6        phrase 41.1-45.4  events 9  first new thing in frame after -0.3 s (?)
+S7        phrase 46.9-49.9  events 6  first new thing in frame after 0.4 s (sprite)
+S8a       phrase 53.7-55.6  events 4  first new thing in frame after -0.2 s (?)
+S8b       phrase 57.5-60.0  events 5  first new thing in frame after 0.5 s (drawing)
+S9        phrase 61.0-63.4  events 6  first new thing in frame after -0.3 s (?)
+S10       phrase 64.0-65.7  events 6  first new thing in frame after 0.2 s (drawing)
+
+DEAD STRETCHES >= 2.5 s (the voice speaks, nothing new in frame); STRICT: camera, shade and light do not count:
+  none
+
+STRONG EFFECTS: 
+  ✓ 4.93 s  flash  phrase pause  (no cut under it)
+  ✓ 23.68 s  flash  phrase pause  (a cut under it)
+  ✓ 49.10 s  strong: layer (window 5)  phrase S7  word "искры." -0.05 s
+  ✓ 65.01 s  strong: layer (window 6)  phrase S10  word "зверей." -0.02 s
+  shakes: 0 · flashes: 2 · WebGL patches at once up to 0 · layers with amt: 0
+  no violations of the strong-effect rules
+no errors

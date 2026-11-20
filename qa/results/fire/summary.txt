@@ -1,0 +1,72 @@
+CARTOON ACCEPTANCE: demo/fire/index.html
+sizes: 735x587,874x648,1440x900,735x815 · 2026-11-20T18:35:24.786Z
+result: green 27, red 0
+✓ Seeking gives the same frame (?t=, jump forward/back, frame by frame)
+    16 s: back identical, stepwise 103.2 dB; 32 s: back identical, stepwise identical; 48 s: back identical, stepwise identical; 64 s: back identical, stepwise identical (PSNR, 99 = no difference; threshold 60 dB)
+· Contact sheet 1 fps, 735x587
+    80 frames on 4 sheets: contact-735x587-01.jpg, contact-735x587-02.jpg, contact-735x587-03.jpg, contact-735x587-04.jpg
+✓ prefers-reduced-motion: the whole timeline and the board without errors
+    no errors
+✓ Loading: no console errors or warnings, no 404
+    clean
+✓ Label flicker (kino-migania, 735x587): 0
+    no flickering labels in frame (canvas layers / shade with findings: 7, see migania.txt)
+✓ Labels 735x587: fully in frame, not on the subtitle, not overlapping, not hanging
+    of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0
+✓ Window numbers hidden until the finale (735x587)
+    not visible
+✓ Subtitle and chapter insets in frame (735x587)
+    subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0
+✓ Labels 874x648: fully in frame, not on the subtitle, not overlapping, not hanging
+    of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0
+✓ Window numbers hidden until the finale (874x648)
+    not visible
+✓ Subtitle and chapter insets in frame (874x648)
+    subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0
+✓ Labels 1440x900: fully in frame, not on the subtitle, not overlapping, not hanging
+    of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0
+✓ Window numbers hidden until the finale (1440x900)
+    not visible
+✓ Subtitle and chapter insets in frame (1440x900)
+    subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0
+✓ Labels 735x815: fully in frame, not on the subtitle, not overlapping, not hanging
+    of 11 labels with remarks: 0: cut by the edge 0, on the subtitle or bar 0, overlapping 0, opaque outside the frame 0, hanging after leaving 0, under the chapter inset 0, appeared outside the frame 0, beyond the window frame 0
+✓ Window numbers hidden until the finale (735x815)
+    not visible
+✓ Subtitle and chapter insets in frame (735x815)
+    subtitle cut: no; chapter insets 6, cut 0, on the subtitle 0
+✓ Board 735x587: labels not under a button or card, the focused window whole
+    clean
+✓ Board 874x648: labels not under a button or card, the focused window whole
+    clean
+✓ Board 1440x900: labels not under a button or card, the focused window whole
+    clean
+✓ Board 735x815: labels not under a button or card, the focused window whole
+    clean
+✓ Flights not faster than 30 px/frame (735x587)
+    fastest 15.5 px/frame (fly peshchera); cuts (not counted): 2
+✓ Camera jerk <= 0.7 (735x587)
+    sharpest 0.54 (fly peshchera); overlapping: none
+✓ Camera moves do not overlap
+    none
+✓ Camera stands still <= 40 % of the time before the finale
+    still 36.4 % (24.2 s), creeping another 16.8 %; per window: 1 19.6 %, 2 31.3 %, 3 27.8 %, 4 47 %, 5 52.8 %, 6 30.8 %; stills > 2.5 s: 2
+· Flights not faster than 30 px/frame (874x648, for reference)
+    fastest 17.2 px/frame (fly peshchera); cuts (not counted): 2
+· Camera jerk <= 0.7 (874x648, for reference)
+    sharpest 0.6 (fly peshchera); overlapping: none
+· Flights not faster than 30 px/frame (1440x900, for reference)
+    fastest 24.5 px/frame (fly peshchera); cuts (not counted): 2
+· Camera jerk <= 0.7 (1440x900, for reference)
+    sharpest 0.92 (fly golovnya); overlapping: none
+· Flights not faster than 30 px/frame (735x815, for reference)
+    fastest 14.9 px/frame (fly koster); cuts (not counted): 2
+· Camera jerk <= 0.7 (735x815, for reference)
+    sharpest 0.53 (fly golovnya); overlapping: none
+✓ No dead stretches >= 2.5 s (voice speaks, nothing new in frame; STRICT=1)
+    none
+✓ Strong effects follow the rules (on the word, one per phrase, shake <= 3, flashes <= 3, WebGL <= 2)
+    effects 4, shakes 0, flashes 2, WebGL at once up to 0
+✓ Glyph jitter <= 0.12 px on average and <= 8 jumps > 0.2 px per probe (735x587, 0 probes)
+    all probes calm
+details: contact: 4 sheets · nadpisi: nadpisi.txt · doska: doska.txt · migania: migania.txt · plavnost: plavnost.txt · sobytiya: sobytiya.txt · drozh: drozh.txt

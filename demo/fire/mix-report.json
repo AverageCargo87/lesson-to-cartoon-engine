@@ -1,0 +1,67 @@
+{
+ "music_under_voice_db": 24.0,
+ "music_pause_lift_db": 8.0,
+ "voice_minus_music_median_db": 25.0,
+ "worst_phrase": {
+  "id": "S10",
+  "voice_minus_music_db": 18.5
+ },
+ "phrases": [
+  {
+   "id": "S1a",
+   "voice_minus_music_db": 32.1
+  },
+  {
+   "id": "S1b",
+   "voice_minus_music_db": 21.4
+  },
+  {
+   "id": "S2a",
+   "voice_minus_music_db": 25.6
+  },
+  {
+   "id": "S2b",
+   "voice_minus_music_db": 24.3
+  },
+  {
+   "id": "S3a",
+   "voice_minus_music_db": 28.7
+  },
+  {
+   "id": "S3b",
+   "voice_minus_music_db": 27.8
+  },
+  {
+   "id": "S4",
+   "voice_minus_music_db": 23.9
+  },
+  {
+   "id": "S5",
+   "voice_minus_music_db": 30.0
+  },
+  {
+   "id": "S6",
+   "voice_minus_music_db": 26.0
+  },
+  {
+   "id": "S7",
+   "voice_minus_music_db": 19.8
+  },
+  {
+   "id": "S8a",
+   "voice_minus_music_db": 21.1
+  },
+  {
+   "id": "S8b",
+   "voice_minus_music_db": 23.7
+  },
+  {
+   "id": "S9",
+   "voice_minus_music_db": 27.5
+  },
+  {
+   "id": "S10",
+   "voice_minus_music_db": 18.5
+  }
+ ]
+}
